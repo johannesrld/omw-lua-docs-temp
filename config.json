@@ -1,0 +1,10 @@
+{
+    "name": "OpenMW Lua API",
+    "description": "Definition files for openMW's lua api",
+    "word": [
+        "require[%s%\\s(\\\"']+openmw\\.\\w*[%)\\\"']"
+    ],
+    "settings": {
+        "lua.runtime.version": "LuaJIT"
+    }
+}
